@@ -8,6 +8,10 @@
     "tsc_init": "tsc --init",
     "build": "tsc"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bagratinho/react-content-slider.git"
+  },
   "author": {
     "name": "Bagrat Bagoyan",
     "email": "bagrat.bagoyan@gmail.com",
@@ -19,16 +23,13 @@
     "react-dom": ">= 16.3.0"
   },
   "dependencies": {
-    "react": "^16.3.0",
-    "react-dom": "^16.3.0",
-    "react-measure": "^2.3.0",
-    "react-transition-group": "^4.4.1",
+    "react-transition-group": "^2.4.0",
     "styled-components": "^4.0.3"
   },
   "devDependencies": {
     "@types/react-measure": "^2.0.6",
-    "@types/react-transition-group": "^4.2.4",
-    "@types/styled-components": "^5.1.0",
+    "@types/react-transition-group": "^2.4.0",
+    "@types/styled-components": "^4.0.3",
     "typescript": "^3.9.3"
   }
 }
