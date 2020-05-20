@@ -1,6 +1,6 @@
 {
   "name": "react-content-slider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple horizontal content slider plugin, perfect for transitioning between UI steps. ",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -23,6 +23,7 @@
     "react-dom": ">= 16.3.0"
   },
   "dependencies": {
+    "react-measure": "2.1.0",
     "react-transition-group": "^2.4.0",
     "styled-components": "^4.0.3"
   },
